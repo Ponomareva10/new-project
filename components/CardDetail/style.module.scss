@@ -1,0 +1,52 @@
+.detail {
+    width: 482px;
+    height: 400px;
+    margin-left: 104px;
+
+    .detail__heading {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        color: #1B1C57;
+        opacity: 0.75;
+    }
+
+    .detail__items {
+        width: 100%;
+        height: 128px;
+        display: flex;
+        flex-wrap: wrap;
+
+        .item {
+            width: 193px;
+            height: 33px;
+            display: flex;
+            align-items: center;
+
+            .item__icon {
+                width: 32px;
+                height: 32px;
+                margin-right: 20px;
+            }
+
+            .item__name {
+                font-family: 'Lexend';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                text-transform: capitalize;
+                color: #3C4563;
+                opacity: 0.75;
+            }
+        }
+    }
+
+    .detail__line {
+        width: 440px;
+        height: 2px;
+        background: #F0F3FD;
+    }
+}

@@ -1,0 +1,49 @@
+.label {
+    position: absolute;
+    width: 496px;
+    height: 56px;
+    left: 107px;
+    top: 509px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #E0E3EB;
+    border-radius: 32px;
+
+    .label__locationIcon {
+        width: 18px;
+        height: 22px;
+        margin-left: 27px;
+    }
+
+    .label__input {
+        width: 303px;
+        height: 22px;
+        border: none;
+    }
+
+    .label__btn {
+        width: 109px;
+        height: 48px;
+        background: #F2994A;
+        border: none;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 22px;
+        color: #FFFFFF;
+        border-radius: 32px;
+        margin-right: 3px;
+        padding: 11px 17px;
+
+        .btn__icon {
+            display: inline-block;
+            width: 7px;
+            height: 14px;
+            background-image: url('../../../public/arrowRight.png');
+            background-repeat: no-repeat;
+            margin-left: 15px;
+        }
+    }
+}

@@ -1,0 +1,92 @@
+.benefit {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+
+    .benefit__left {
+        max-width: 700px;
+
+        .benefit__points {
+            margin-left: 104px;
+        }
+        .benefit__cube {
+            position: absolute;
+            width: 120px;
+            height: 30px;
+            top: 68px;
+            left: 124px;
+
+        .cube__line {
+            display: inline-block;
+            width: 32px;
+            height: 1px;
+            background: #F59E0B;
+            margin: 0 8px 6px 0;
+        }
+    
+        .cube__sect {
+            font-family: 'Lexend';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            text-transform: capitalize;
+            color: #F59E0B;
+        }
+    }
+
+    .benefit__heading {
+        width: 357px;
+        height: 80px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        text-transform: capitalize;
+        color: #1B1C57;
+        margin: -10px 0 0 160px;
+    }
+
+    .benefit__info {
+        width: 350px;
+        margin: 64px 0 0 154px;
+
+        .info__plus {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 80px;
+            line-height: 90px;
+            letter-spacing: 0.888889px;
+            color: #1EA59A;
+        }
+
+        .info__text {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: 0.346154px;
+            color: #404852;
+        }
+    }
+    }
+
+    .benefit__right {
+        width: 700px;
+        height: 559px;
+        background: #F6FAFA;
+        box-shadow: 12px 16px 25px rgba(0, 0, 0, 0.04);
+        margin: 28px 68px 0 0;
+        padding: 62px 90px 52px 110px;
+        z-index: 3;
+
+        .right__info {
+            width: 433px;
+            height: 91px;
+            margin-bottom: 106px;
+        }
+    }
+}

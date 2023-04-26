@@ -1,0 +1,51 @@
+.header {
+    position: absolute;
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 54px;
+    right: 0;
+    z-index: 2;
+
+    .header__nav {
+        width: 122px;
+        height: 34px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: capitalize;
+        color: #BDBDBD;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 32px;
+        text-align: center;
+        padding-top: 10px;
+        text-decoration: none;
+    }
+
+    .nav__active {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        text-transform: capitalize;
+        color: #828282;
+    }
+
+    .header__btn {
+        width: 107px;
+        height: 46px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 22px;
+        color: #F2F2F2;
+        background: #F2994A;
+        border-radius: 32px;
+        border: none;
+    }
+}

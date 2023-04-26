@@ -1,0 +1,14 @@
+.sliderWrapper {
+    display: absolute;
+    width: 753px;
+    // height: max-content;
+    border-radius: 100px 0px 0px 100px;
+    right: 0;
+    bottom: 0;
+
+    .img {
+        max-width: 100%;
+        height: max-content;
+        margin-left: 10px;
+    }
+}

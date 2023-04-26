@@ -1,0 +1,57 @@
+.readyPlyer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 84px;
+
+    .readyPlayer__left {
+
+        .ready {
+            font-family: 'Lexend';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            text-transform: capitalize;
+            color: #F59E0B;
+            margin-top: 140px;
+        
+            .ready__line {
+                display: inline-block;
+                width: 32px;
+                height: 1px;
+                background: #F59E0B;
+                margin: 0 8px 4px 64px;
+            }
+        }
+        
+        .ready__heading {
+            font-family: 'Lexend';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 40px;
+            text-transform: capitalize;
+            color: #1B1C57;
+            margin-left: 104px;
+        }
+        
+        .ready__text {
+            width: 413px;
+            height: 56px;
+            font-family: 'Lexend';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #626687;
+            opacity: 0.75;
+            margin: 15px 0 0 104px;
+        }
+    }
+
+    .readyPlayer__rigth {
+        width: 706px;
+        height: 445px;
+        margin: 140px 84px 0 0;
+    }
+}

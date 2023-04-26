@@ -1,0 +1,61 @@
+.card {
+    position: relative;
+    width: 340px;
+    height: 552px;
+
+    .card__marker {
+        position: absolute;
+        width: 150px;
+        left: 16px;
+        bottom: 186px;
+    }
+
+    .card__img {
+        width: 340px;
+        height: 382px;
+        border-radius: 24px;
+    }
+
+    .card__item {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        color: #0E1735;
+        margin: 24px 0 8px 0;
+    }
+
+    .card__price {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 32px;
+        color: #3C4563;
+        margin-bottom: 24px;
+    }
+
+    .card__autor {
+        display: flex;
+        gap: 16px;
+
+        .autor__name {
+            font-family: 'Lexend';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            color: #0E1735;
+        }
+
+        .autor__address {
+            font-family: 'Lexend';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+            color: #888B97;
+        }
+    }
+}

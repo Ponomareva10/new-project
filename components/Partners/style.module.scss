@@ -1,0 +1,21 @@
+.partners {
+    margin: 220px 0 0 107px;
+
+    .partners__heading {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #888B97;
+        margin: 0;
+    }
+
+    .partners__listIcon {
+        width: 496px;
+        height: 64px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
